@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ยินดีต้อนรับสู่ สวัสดีสยาม</title>
+    <link rel="stylesheet" href="../Css/thaiwebsite.css">
+    <link rel="stylesheet" href="../Css/AboutThailand.css">
+    <link rel="stylesheet" href="../Css/Selection-section.css">
+    <link rel="stylesheet" href="../Css/thaiculture.css">
+    <link rel="stylesheet" href="../Css/Thailand-crusine.css">
+    <link rel="stylesheet" href="../Css/Travel-Essential.css">
+    <link rel="stylesheet" href="../Css/nav.css">
+    <link rel="stylesheet" href="../Css/Footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Image/logo.png" alt="Sawsdee Siam Logo" class="logo-img">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="Thaiwebsite.html">Home</a></li>
+                <li><a href="Thaiabout.html">About</a></li>
+                <li><a href="Thaicontact.html">Contact</a></li>
+                <li class="language-dropdown">
+                    <a href="#">Language <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Thaiwebsite.html">English</a></li>
+                        <li><a href="Thaiversion.html">ไทย (Thai)</a></li>
+                    </ul>
+                </li>
+                <li><a href="Login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- วิดีโอพื้นหลัง -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="../Video/Thaishortvd.mp4" type="video/mp4">
+            เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
+        </video>
+    </div>
+
+    <!-- ส่วนหลัก -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ยินดีต้อนรับสู่ สวัสดีสยาม</h1>
+            <p>ค้นพบมรดกทางวัฒนธรรมที่หลากหลาย ประเพณีอันมีชีวิตชีวา และทิวทัศน์ที่สวยงามตระการตาของประเทศไทย</p>
+            <div class="buttons">
+                <a href="#about-thailand-section" class="btn">สำรวจประเทศไทย</a>
+                <a href="https://www.britannica.com/place/Thailand" class="btn btn-outline">เรียนรู้เพิ่มเติม →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- เกี่ยวกับประเทศไทย -->
+    <section class="about-thailand">
+        <h2>เกี่ยวกับประเทศไทย</h2>
+        <div class="about-container">
+            <!-- คอลัมน์ซ้าย: แผนที่ประเทศไทย -->
+            <div class="map-container">
+                <img src="../Image/favpng_provinces-of-thailand-vector-map.png" alt="แผนที่ประเทศไทย">
+            </div>
+
+            <!-- คอลัมน์ขวา: เนื้อหาเกี่ยวกับประเทศไทย -->
+            <div class="about-content">
+                <h1 style="text-align: left;">บทนำ</h1>
+                <p style="text-align: left;">ประเทศไทยเป็นบ้านของวัดพุทธ สัตว์ป่าที่น่าทึ่ง และเกาะที่สวยงามตระการตา ยังเป็นที่รู้จักในด้านประวัติศาสตร์อันน่าหลงใหล วัฒนธรรมที่โดดเด่น และอาหารท้องถิ่นที่อร่อย อุตสาหกรรมการท่องเที่ยวมีบทบาทสำคัญในเศรษฐกิจไทยและมีส่วนประมาณ 18.4 เปอร์เซ็นต์ต่อ GDP ของประเทศ</p>
+
+                <!-- ประชาชนและวัฒนธรรม -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-users"></i>
+                        <h3>ประชาชนและวัฒนธรรม</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>ประมาณ 90 เปอร์เซ็นต์ของประชากรนับถือศาสนาพุทธ แต่มีชาวมุสลิมประมาณสามล้านคนอาศัยอยู่ทางตอนใต้ใกล้ชายแดนกับมาเลเซีย</p>
+                        <p>เด็กไทยเข้าเรียนประถมศึกษาหกปี จากนั้นอาจเรียนต่อมัธยมศึกษาอีกหกปี แต่ครอบครัวต้องจ่ายค่าเล่าเรียน เด็กชายเริ่มฝึกทหารในชั้นมัธยมศึกษาปีที่ 3</p>
+                        <p>อาหารไทยได้รับอิทธิพลจากวัฒนธรรมจีนและอินเดีย อาหารไทยส่วนใหญ่มักเผ็ดและมักมีส่วนผสมเช่นพริก ข่า ตะไคร้ โหระพา ขิง และกะทิ</p>
+                        <p>เกษตรกรไทยปลูกต้นหม่อนเพื่อเลี้ยงไหม ไหมจะผลิตเส้นไหมซึ่งนำไปทำเป็นเสื้อผ้าไหมที่สวยงามในประเทศไทย ฝรั่งเศส และสหรัฐอเมริกา</p>
+                        <p>กรุงเทพฯ ถูกเรียกว่าเวนิสแห่งตะวันออกเพราะมีคลอง 83 สาย เรือมากถึง 10,000 ลำที่เต็มไปด้วยผลไม้ ผัก และปลาครองคลองและสร้างตลาดน้ำ</p>
+                        <p>กรุงเทพฯ เป็นบ้านของโครงสร้างทางพุทธศาสนาที่น่าประทับใจมากมายที่มียอดเจดีย์ทองคำ เจดีย์ที่งดงาม และรูปปั้นพระพุทธรูปขนาดใหญ่</p>
+                    </div>
+                </div>
+
+                <!-- ธรรมชาติ -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>ธรรมชาติ</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>ฝนตกเกือบทุกวันระหว่างเดือนพฤษภาคมถึงกันยายน สภาพอากาศที่ชื้นและมีความชื้นสูงส่งเสริมให้มีความหลากหลายทางชีวภาพและสัตว์ป่าที่อุดมสมบูรณ์ในประเทศไทย</p>
+                        <p>ดอกบัวเป็นดอกไม้ทั่วไปและเป็นดอกไม้โปรดในประเทศไทย ดอกบัวอยู่เหนือผิวน้ำแต่รากอยู่ในโคลน มีต้นไม้และพุ่มไม้ดอกมากมาย และต้นผลไม้ ในป่าดิบชื้นสามารถพบพืชกินเนื้อเช่นต้นหม้อข้าวหม้อแกงลิงที่ลึกลับ</p>
+                        <p>ป่าลึกเป็นบ้านของเสือ ช้าง วัวป่า เสือดาว และสมเสร็จมาลายัน สมเสร็จมีขนสีดำครึ่งหน้าและขนสีขาวครึ่งหลัง ยังพบงูจงอางและจระเข้ในประเทศไทย</p>
+                    </div>
+                </div>
+
+                <!-- รัฐบาลและเศรษฐกิจ -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-landmark"></i>
+                        <h3>รัฐบาลและเศรษฐกิจ</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>เป็นที่รู้จักในชื่อสยามจนถึงปี 1939 ประเทศไทยเป็นประเทศเดียวในเอเชียตะวันออกเฉียงใต้ที่ไม่เคยถูกยึดครองโดยอำนาจยุโรป การปฏิวัติในปี 1932 นำไปสู่การปกครองระบอบประชาธิปไตยอันมีพระมหากษัตริย์ทรงเป็นประมุข</p>
+                        <p>พระมหากษัตริย์เป็นผู้นำของประเทศ นายกรัฐมนตรีถูกเลือกจากสมาชิกสภาผู้แทนราษฎร แต่ได้รับการแต่งตั้งโดยพระมหากษัตริย์</p>
+                        <p>เกษตรกรรมและการท่องเที่ยวเป็นอุตสาหกรรมที่สำคัญที่สุดในประเทศไทย</p>
+                        <p>ในเดือนธันวาคม 2004 สึนามิในมหาสมุทรอินเดียที่รุนแรงพัดถล่มประเทศไทย แต่เศรษฐกิจของประเทศส่วนใหญ่ฟื้นตัวจากผลกระทบของภัยพิบัติ</p>
+                    </div>
+                </div>
+
+                <!-- ประวัติศาสตร์ -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-history"></i>
+                        <h3>ประวัติศาสตร์</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>ประมาณ 2000 ปีก่อนคริสต์ศักราช ผู้คนสร้างถิ่นฐานบนเนินเขาในประเทศไทย แห่งแรกคิดว่าเป็นบ้านเชียง ชิ้นส่วนเครื่องปั้นดินเผา เครื่องมือ และเครื่องประดับจาก 200 ปีก่อนคริสต์ศักราชถึง 300 ปีหลังคริสต์ศักราชถูกขุดพบในพื้นที่นี้</p>
+                        <p>ประเทศไทยซึ่งหมายถึง "ดินแดนแห่งอิสรภาพ" เป็นที่รู้จักในชื่อสยามจนถึงปี 1939</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- วัฒนธรรมไทย -->
+    <section class="thailand-culture">
+        <h1>วัฒนธรรมไทย</h1>
+        <p>วัฒนธรรมไทยเป็นการผสมผสานที่โดดเด่นของอิทธิพลต่าง ๆ ที่พัฒนาขึ้นตามเวลา ขนบธรรมเนียมท้องถิ่น ความเชื่อทางวิญญาณ ประเพณีพุทธ และการปฏิบัติทางวัฒนธรรมและชาติพันธุ์ของภูมิภาคต่างมีบทบาทในการหล่อหลอมวัฒนธรรมไทย ความเป็นไทยซึ่งหมายถึงคุณลักษณะเฉพาะที่กำหนดอัตลักษณ์ประจำชาติของประเทศไทยเห็นได้ชัดในประวัติศาสตร์ ขนบธรรมเนียม และประเพณีของประเทศ ในขณะที่ศาสนาพุทธยังคงเป็นศาสนาหลักในประเทศไทยด้วยวัดมากกว่า 40,000 แห่ง ศาสนาอิสลาม คริสต์ และศาสนาอื่น ๆ ก็ได้รับการปฏิบัติเช่นกัน</p>
+    </section>
+
+    <!-- ส่วนการ์ด -->
+    <section class="hero-section">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-background" style="background-image: url('https://gretastravels.com/wp-content/uploads/2019/07/IMG_1436.jpg.webp');"></div>
+                <div class="content">
+                    <div class="card-category">สำรวจตอนนี้</div>
+                    <h3 class="card-heading">วัดโบราณ</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background" style="background-image: url('https://st5.depositphotos.com/29472770/67290/i/450/depositphotos_672903766-stock-photo-gending-sriwijaya-dance-sumatera-selatan.jpg');"></div>
+                <div class="content">
+                    <div class="card-category">ร่วมตอนนี้</div>
+                    <h3 class="card-heading">เทศกาลวัฒนธรรม</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background" style="background-image: url('https://thumbs.dreamstime.com/b/mural-ancient-thai-people-s-everyday-life-wall-painting-temple-nan-thailand-showing-way-living-50855369.jpg');"></div>
+                <div class="content">
+                    <div class="card-category">ศึกษาตอนนี้</div>
+                    <h3 class="card-heading">ศิลปะไทยดั้งเดิม</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- อาหารไทย -->
+    <section class="thailand-cuisine">
+        <div class="cuisine-container">
+            <!-- คอลัมน์ซ้าย: ข้อความ -->
+            <div class="cuisine-text">
+                <h2>อาหารไทย</h2>
+                <p>อาหารไทยมีชื่อเสียงในด้านรสชาติที่สดใส สมุนไพรหอม และความสมดุลที่สมบูรณ์แบบของรสหวาน เปรี้ยว เผ็ด และเค็ม จากผัดไทยที่มีชื่อเสียงไปทั่วโลกถึงต้มยำที่เผ็ดร้อน อาหารไทยเป็นงานเลี้ยงสำหรับประสาทสัมผัส</p>
+                <p>ส่วนผสมหลักรวมถึงตะไคร้ ข่า ใบมะกรูด โหระพาไทย และพริก อาหารริมทางเป็นส่วนสำคัญของวัฒนธรรมไทย เสนออาหารที่อร่อยและราคาไม่แพงเช่นส้มตำและข้าวเหนียวมะม่วง</p>
+                <a href="#" class="btn">สำรวจอาหารไทย</a>
+            </div>
+
+            <!-- คอลัมน์ขวา: รูปภาพ -->
+            <div class="cuisine-image">
+                <img src="https://media.istockphoto.com/id/1370732785/photo/authentic-classic-thai-dishes.jpg?s=170667a&w=0&k=20&c=vG1AUkooeHIhbHSr9LE3RwHrihRoOXEqXkyqtq5AC6c=" alt="อาหารไทย">
+            </div>
+        </div>
+    </section>
+
+    <!-- จุดหมายปลายทางแนะนำ -->
+    <section class="featured-destinations">
+        <h2>จุดหมายปลายทางแนะนำ</h2>
+        <div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="../Image/BANGKOK.webp" alt="กรุงเทพฯ">
+                    <h3>กรุงเทพฯ</h3>
+                    <p>สำรวจเมืองหลวงที่คึกคักด้วยชีวิตชีวาของถนนและสถานที่สำคัญทางวัฒนธรรม</p>
+                    <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Chiang-mai.jpg" alt="เชียงใหม่">
+                    <h3>เชียงใหม่</h3>
+                    <p>ค้นพบวัดที่สงบและภูเขาที่เขียวชอุ่มของภาคเหนือของประเทศไทย</p>
+                    <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Pukhet.webp" alt="ภูเก็ต">
+                    <h3>ภูเก็ต</h3>
+                    <p>ผ่อนคลายบนชายหาดที่สวยงามและสนุกกับชีวิตกลางคืนที่คึกคักของภูเก็ต</p>
+                    <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Krabi.avif" alt="กระบี่">
+                    <h3>กระบี่</h3>
+                    <p>สัมผัสหน้าผาหินปูนที่สวยงามตระการตาและน้ำทะเลใสสะอาดของกระบี่</p>
+                    <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Nightlife-in-Pattaya-City.jpg" alt="พัทยา">
+                    <h3>พัทยา</h3>
+                    <p>สนุกกับชีวิตกลางคืนที่คึกคักและชายหาดที่สวยงามของพัทยา</p>
+                    <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- สิ่งจำเป็นในการเดินทาง -->
+    <section class="travel-essentials">
+        <div class="essentials-grid">
+            <!-- วีซ่าและหนังสือเดินทาง -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-passport"></i>
+                </div>
+                <h3>วีซ่าและหนังสือเดินทาง</h3>
+            </div>
+
+            <!-- การเดินทางไปประเทศไทย -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>การเดินทางไปประเทศไทย</h3>
+            </div>
+
+            <!-- การเดินทางภายใน -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <h3>การเดินทางภายใน</h3>
+            </div>
+
+            <!-- สภาพอากาศ -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <h3>สภาพอากาศ</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- คำติชม -->
+    <section class="testimonials">
+        <h2>สิ่งที่ผู้เยี่ยมชมของเราพูด</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="https://t3.ftcdn.net/jpg/07/02/98/70/360_F_702987033_S4Wi6P5GnqTMzviL7V2oFdDWwzQiL0RM.jpg" alt="ผู้ใช้ 1">
+                <p>"ประเทศไทยเป็นสถานที่มหัศจรรย์! ผู้คน อาหาร และวัฒนธรรมนั้นน่าจดจำ"</p>
+                <h4>- จอห์น โด</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture.jpg" alt="ผู้ใช้ 2">
+                <p>"วัดในเชียงใหม่นั้นสวยงามน่าทึ่ง ต้องมาเยือนสำหรับทุกคนที่เดินทางมาประเทศไทย"</p>
+                <h4>- เจน สมิธ</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg=" alt="ผู้ใช้ 3">
+                <p>"ชายหาดของภูเก็ตคือสวรรค์ ฉันรอไม่ไหวที่จะกลับไปอีก!"</p>
+                <h4>- ไมเคิล บราวน์</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ส่วนท้าย -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- โลโก้และคำอธิบาย -->
+            <div class="footer-logo">
+                <img href="Thaiwebsite.html" src="../Image/logo.png" alt="โลโก้สวัสดีสยาม" class="logo-img">
+                <p>ค้นพบความงาม วัฒนธรรม และประเพณีของประเทศไทยกับสวัสดีสยาม</p>
+            </div>
+
+            <!-- ลิงก์ด่วน -->
+            <div class="footer-links">
+                <h3>ลิงก์ด่วน</h3>
+                <ul>
+                    <li><a href="Thaiwebsite.html">หน้าแรก</a></li>
+                    <li><a href="Thaiabout.html">เกี่ยวกับ</a></li>
+                    <li><a href="Thaicontact.html">ติดต่อ</a></li>
+                    <li><a href="#">นโยบายความเป็นส่วนตัว</a></li>
+                    <li><a href="#">ข้อกำหนดและเงื่อนไข</a></li>
+                </ul>
+            </div>
+
+            <!-- ลิงก์โซเชียลมีเดีย -->
+            <div class="footer-social">
+                <h3>ติดตามเรา</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100051263024094" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/tain-yan-tun-18ba732bb/" aria-label="Linkedln"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/derek_tainyan/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@almightyrohan1536" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- การสมัครรับจดหมายข่าว -->
+            <div class="footer-newsletter">
+                <h3>สมัครรับจดหมายข่าวของเรา</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="ใส่อีเมลของคุณ" required>
+                    <button type="submit">สมัคร</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- ลิขสิทธิ์ -->
+        <div class="footer-copyright">
+            <p>&copy; 2023 สวัสดีสยาม. สงวนลิขสิทธิ์.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript Files -->
+    <script src="../Javascript/AboutThailand.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/Hamburger.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/CarouselMovement.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/SmoothScroll.js" crossorigin="anonymous"></script>
+</body>
+</html>

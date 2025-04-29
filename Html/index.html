@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sawsdee Siam</title>
+    <link rel="stylesheet" href="../Css/Thaiwebsite.css">
+    <!-- <link rel="stylesheet" href="/Css/thaiwebsite.css"> -->
+    <link rel="stylesheet" href="../Css/AboutThailand.css">
+    <link rel="stylesheet" href="../Css/Selection-section.css">
+    <link rel="stylesheet" href="../Css/Thaiculture.css">
+    <link rel="stylesheet" href="../Css/Thailand-crusine.css">
+    <link rel="stylesheet" href="../Css/Travel-Essential.css">
+    <link rel="stylesheet" href="../Css/Nav.css">
+    <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Image/logo.png" alt="Sawsdee Siam Logo" class="logo-img">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Thaiabout.html">About</a></li>
+                <li><a href="Thaicontact.html">Contact</a></li>
+                <li class="language-dropdown">
+                    <a href="#">Language <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">English</a></li>
+                        <li><a href="Thaiversion.html">ไทย (Thai)</a></li>
+                    </ul>
+                </li>
+                <li><a href="Login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="../Video/Thaishortvd.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Sawsdee Siam</h1>
+            <p>Discover Thailand's rich cultural heritage, vibrant traditions, and breathtaking landscapes.</p>
+            <div class="buttons">
+                <a href="#about-thailand-section" class="btn" onclick="smoothScroll('about-thailand-section')">Explore Thailand</a>
+                <a href="https://www.britannica.com/place/Thailand" class="btn btn-outline">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Thailand Section -->
+    <section class="about-thailand" id="about-thailand-section">
+        <h2>About Thailand</h2>
+        <div class="about-container">
+            <div class="map-container">
+                <img src="../Image/favpng_provinces-of-thailand-vector-map.png" alt="Map of Thailand">
+            </div>
+            <div class="about-content">
+                <h1 style="text-align: left;">Introduction</h1>
+                <p style="text-align: left;">Thailand is home to Buddhist temples, exotic wildlife, and spectacular islands. It is also known for its fascinating history, unique culture, and delectable local food. The tourism industry plays an important role in the Thai economy and contributes an estimated 18.4 percent to the national GDP.</p>
+
+                <!-- People & Culture Card -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-users"></i>
+                        <h3>People & Culture</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>About 90 percent of the people are Buddhist, but about three million Muslims live in the south near the border with Malaysia.</p>
+                        <p>Thai children go to elementary school for six years. Then they may attend high school for another six years, but their families must pay for the education. Boys begin military training in ninth grade.</p>
+                        <p>Food in Thailand is influenced by Chinese and Indian cultures. Most Thai dishes are spicy and many common dishes include hot chilies, lemongrass, basil, ginger, and coconut milk.</p>
+                        <p>Thai farmers cultivate mulberry trees that feed silkworms. The worms create silk, which is made into beautiful silk clothing in Thailand, France, and the United States.</p>
+                        <p>Bangkok is called the Venice of the East because there are 83 canals. As many as 10,000 boats full of fruits, vegetables, and fish crowd the canals and create a floating market.</p>
+                        <p>The city of Bangkok is home to many impressive Buddhist structures featuring gold-layered spires, graceful pagodas, and giant Buddha statues.</p>
+                    </div>
+                </div>
+
+                <!-- Nature Card -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Nature</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>Rain falls almost every day between the months of May and September. The moist and humid weather encourages the diverse and abundant wildlife in Thailand.</p>
+                        <p>Lotus flowers are common and the favorite flower in Thailand. Lotus flowers live above the surface, but they are rooted in the mud. There are many flowering trees and shrubs, and fruit trees. In the jungle, one can find carnivorous (meat-eating) plants such as the mysterious insect-eating pitcher plant.</p>
+                        <p>The deep forests are home to tigers, elephants, wild ox, leopards, and the Malayan tapir. The tapir is covered in black fur on the first half of its body and white fur to the rear. Cobras and crocodiles are also found in Thailand.</p>
+                    </div>
+                </div>
+
+                <!-- Government & Economy Card -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-landmark"></i>
+                        <h3>Government & Economy</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>Known as Siam until 1939, Thailand is the only Southeast Asian country never to have been taken over by a European power. A revolution in 1932 led to a constitutional monarchy.</p>
+                        <p>The king is the leader of the country. The prime minister is picked from among members of the House of Representatives, but is appointed by the king.</p>
+                        <p>Agriculture and tourism are the most important industries in Thailand.</p>
+                        <p>In December 2004, the catastrophic Indian Ocean tsunami hit Thailand, but the country's economy has largely recovered from the disaster's effect.</p>
+                    </div>
+                </div>
+
+                <!-- History Card -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <i class="fas fa-history"></i>
+                        <h3>History</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="about-card-content">
+                        <p>Around 2000 B.C. people built settlements in the hillsides of Thailand. The first one is thought to be Ben Chiang. Pieces of pottery, tools, and jewelry from 200 B.C. to 300 A.D. have been dug up in this area.</p>
+                        <p>Thailand, which means "land of the free," was known as Siam until 1939.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thai Culture Section -->
+    <section class="thailand-culture">
+        <h1>Thai Culture</h1>
+        <p>The culture of Thailand is a unique blend of various influences that have evolved over time. Local customs, animist beliefs, Buddhist traditions, and regional ethnic and cultural practices have all played a role in shaping Thai culture. Thainess, which refers to the distinctive qualities that define the national identity of Thailand, is evident in the country's history, customs, and traditions. While Buddhism remains the dominant religion in Thailand with more than 40,000 temples, Islam, Christianity, and other faiths are also practiced.</p>
+    </section>
+
+    <!-- Hero Section with Cards -->
+    <section class="hero-section">
+        <div class="card-container">
+            <a href="Thaitemples.html" class="card">
+                <div class="card-background" style="background-image: url('https://gretastravels.com/wp-content/uploads/2019/07/IMG_1436.jpg.webp');"></div>
+                <div class="content">
+                    <div class="card-category">Explore now</div>
+                    <h3 class="card-heading">Ancient Temples</h3>
+                </div>
+            </a>
+            
+            <a href="Thaifestival.html" class="card">
+                <div class="card-background" style="background-image: url('https://st5.depositphotos.com/29472770/67290/i/450/depositphotos_672903766-stock-photo-gending-sriwijaya-dance-sumatera-selatan.jpg');"></div>
+                <div class="content">
+                    <div class="card-category">Join now</div>
+                    <h3 class="card-heading">Cultural Festivals</h3>
+                </div>
+            </a>
+            
+            <a href="ThaiArt.html" class="card">
+                <div class="card-background" style="background-image: url('https://thumbs.dreamstime.com/b/mural-ancient-thai-people-s-everyday-life-wall-painting-temple-nan-thailand-showing-way-living-50855369.jpg');"></div>
+                <div class="content">
+                    <div class="card-category">Study now</div>
+                    <h3 class="card-heading">Traditional Thai Art</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Thailand Cuisine Section -->
+    <section class="thailand-cuisine">
+        <div class="cuisine-container">
+            <!-- Left Column: Text -->
+            <div class="cuisine-text">
+                <h2>Thai Cuisine</h2>
+                <p>Thai cuisine is renowned for its vibrant flavors, aromatic herbs, and perfect balance of sweet, sour, spicy, and salty tastes. From the world-famous Pad Thai to the fiery Tom Yum soup, Thai food is a feast for the senses.</p>
+                <p>Key ingredients include lemongrass, galangal, kaffir lime leaves, Thai basil, and chili peppers. Street food is an integral part of Thai culture, offering delicious and affordable dishes like Som Tum (green papaya salad) and Mango Sticky Rice.</p>
+                <a href="#" class="btn">Explore Thai Dishes</a>
+            </div>
+
+            <!-- Right Column: Image -->
+            <div class="cuisine-image">
+                <img src="https://media.istockphoto.com/id/1370732785/photo/authentic-classic-thai-dishes.jpg?s=170667a&w=0&k=20&c=vG1AUkooeHIhbHSr9LE3RwHrihRoOXEqXkyqtq5AC6c=" alt="Thai Cuisine">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations Section -->
+    <section class="featured-destinations" style="margin-top: 50px;">
+        <h2>Featured Destinations</h2>
+        <div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="../Image/BANGKOK.webp" alt="Bangkok">
+                    <h3>Bangkok</h3>
+                    <p>Explore the bustling capital city with its vibrant street life and cultural landmarks.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Chiang-mai.jpg" alt="Chiang Mai">
+                    <h3>Chiang Mai</h3>
+                    <p>Discover the serene temples and lush mountains of Northern Thailand.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Pukhet.webp" alt="Phuket">
+                    <h3>Phuket</h3>
+                    <p>Relax on the stunning beaches and enjoy the vibrant nightlife of Phuket.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Krabi.avif" alt="Krabi">
+                    <h3>Krabi</h3>
+                    <p>Experience the stunning limestone cliffs and crystal-clear waters of Krabi.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="destination-card">
+                    <img src="../Image/Nightlife-in-Pattaya-City.jpg" alt="Pattaya">
+                    <h3>Pattaya</h3>
+                    <p>Enjoy the vibrant nightlife and beautiful beaches of Pattaya.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Travel Essentials Section -->
+    <section class="travel-essentials">
+        <div class="essentials-grid">
+            <!-- Visa and Passport -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-passport"></i>
+                </div>
+                <h3>Visa and Passport</h3>
+            </div>
+
+            <!-- Travel to Thailand -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>Travel to Thailand</h3>
+            </div>
+
+            <!-- Getting Around -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <h3>Getting Around</h3>
+            </div>
+
+            <!-- Weather -->
+            <div class="essentials-card">
+                <div class="icon-container">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <h3>Weather</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Visitors Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="https://t3.ftcdn.net/jpg/07/02/98/70/360_F_702987033_S4Wi6P5GnqTMzviL7V2oFdDWwzQiL0RM.jpg" alt="User 1">
+                <p>"Thailand is a magical place! The people, the food, and the culture are unforgettable."</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture.jpg" alt="User 2">
+                <p>"The temples in Chiang Mai are breathtaking. A must-visit for anyone traveling to Thailand."</p>
+                <h4>- Jane Smith</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg=" alt="User 3">
+                <p>"Phuket's beaches are paradise. I can't wait to go back!"</p>
+                <h4>- Michael Brown</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img href="Thaiwebsite.html" src="../Image/logo.png" alt="Sawsdee Siam Logo" class="logo-img">
+                <p>Discover the beauty, culture, and traditions of Thailand with Sawsdee Siam.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Thaiwebsite.html">Home</a></li>
+                    <li><a href="Thaiabout.html">About</a></li>
+                    <li><a href="Thaicontact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100051263024094" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/tain-yan-tun-18ba732bb/" aria-label="Linkedln"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/derek_tainyan/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@almightyrohan1536" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2023 Sawsdee Siam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="../Javascript/AboutThailand.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/Hamburger.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/CarouselMovement.js" crossorigin="anonymous"></script>
+    <script src="../Javascript/SmoothScroll.js" crossorigin="anonymous"></script>
+</body>
+</html>

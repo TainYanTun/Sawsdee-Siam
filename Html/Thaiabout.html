@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Sawsdee Siam</title>
+    <link rel="stylesheet" href="../Css/Nav.css">
+    <link rel="stylesheet" href="../css/Footer.css">
+    <link rel="stylesheet" href="../Css/Thaiwebsite.css">
+    <link rel="stylesheet" href="../Css/Thaiabout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Image/logo.png" alt="Sawsdee Siam Logo" class="logo-img">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/Html/Thaiwebsite.html">Home</a></li>
+                <li><a href="/Html/Thaiabout.html">About</a></li>
+                <li><a href="/Html/Thaicontact.html">Contact</a></li>
+                <li class="language-dropdown">
+                    <a href="#">Language <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Html/Thaiwebsite.html">English</a></li>
+                        <li><a href="/Html/Thaiversion.html">ไทย (Thai)</a></li>
+                    </ul>
+                </li>
+                <li><a href="/Html/Login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="mission-section">
+            <h2 class="section-title">Our Mission</h2>
+            <div class="mission-content">
+                <div class="mission-text">
+                    <p>Welcome to Sawsdee Siam, your gateway to the vibrant culture and traditions of Thailand. Our mission is to promote and preserve the rich cultural heritage of Thailand while making it accessible to people around the world.</p>
+                    <p>Founded with a passion for Thai culture, we strive to create authentic experiences that showcase the beauty of Thai traditions, from its world-renowned cuisine to its intricate arts and festivals.</p>
+                    <p>Whether you're a cultural enthusiast, a traveler planning your next trip, or someone simply curious about Thailand, we aim to provide valuable insights and resources to deepen your understanding and appreciation of this beautiful country.</p>
+                </div>
+                <div class="mission-image">
+                    <img src="https://images.pexels.com/photos/2070485/pexels-photo-2070485.jpeg?cs=srgb&dl=pexels-freestockpro-2070485.jpg&fm=jpg" alt="Thai Cultural Performance">
+                </div>
+            </div>
+        </section>
+
+        <section class="culture-section">
+            <h2 class="section-title">Thai Culture Highlights</h2>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Thai Cuisine</h3>
+                    <p>Explore the flavors of Thailand, from spicy Tom Yum soup to sweet Mango Sticky Rice. Thai food is known for its balance of five fundamental flavors in each dish.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Traditional Arts</h3>
+                    <p>Discover the elegance of Thai dance, the drama of Khon masked performances, and the intricate craftsmanship of Thai silk weaving.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Festivals</h3>
+                    <p>Experience the water fights of Songkran (Thai New Year) and the beautiful Loy Krathong festival where lanterns light up the night sky.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img href="/Html/Thaiwebsite.html" src="../Image/logo.png" alt="Sawsdee Siam Logo" class="logo-img">
+                <p>Discover the beauty, culture, and traditions of Thailand with Sawsdee Siam.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/Html/Thaiwebsite.html">Home</a></li>
+                    <li><a href="/Html/Thaiabout.html">About</a></li>
+                    <li><a href="/Html/Thaicontact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100051263024094" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/tain-yan-tun-18ba732bb/" aria-label="Linkedln"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/derek_tainyan/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@almightyrohan1536" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2023 Sawsdee Siam. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../Javascript/Hamburger.js"></script>
+</body>
+</html>
