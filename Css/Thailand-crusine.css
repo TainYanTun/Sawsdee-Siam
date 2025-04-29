@@ -1,0 +1,81 @@
+.thailand-cuisine {
+    padding: 80px 10%;
+    background-color: #f9f9f9;
+}
+
+.cuisine-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cuisine-text {
+    text-align: left;
+}
+
+.cuisine-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cuisine-text h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e79434;
+    margin: 10px 0 0;
+}
+
+.cuisine-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.cuisine-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e79434;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cuisine-text .btn:hover {
+    background-color: #d68222;
+}
+
+.cuisine-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .cuisine-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .cuisine-text {
+        text-align: center;
+    }
+
+    .cuisine-text h2::after {
+        margin: 10px auto 0;
+    }
+
+    .cuisine-text .btn {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.about-thailand {
+    padding: 10px 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-thailand h2 {
+    font-size: 2.75rem;
+    margin-bottom: 50px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+.about-thailand h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e79434;
+    margin: 10px auto 0;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #e79434;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.about-card-header:hover {
+    background-color: #d68222;
+}
+
+.about-card-header i:first-child {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.about-card-header h3 {
+    font-size: 1.25rem;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.about-card-header i:last-child {
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.about-card-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.about-card-content p {
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about-card.active .about-card-content {
+    max-height: 500px;
+    padding: 20px;
+}
+
+.about-card.active .about-card-header i:last-child {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1024px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .map-container {
+        padding: 15px;
+    }
+
+    .about-card-header {
+        padding: 15px;
+    }
+
+    .about-card-header h3 {
+        font-size: 1.125rem;
+    }
+
+    .about-card-content p {
+        font-size: 0.8125rem;
+    }
+}

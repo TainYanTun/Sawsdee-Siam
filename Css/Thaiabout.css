@@ -1,0 +1,102 @@
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://lp-cms-production.imgix.net/2024-10/500pxRF92372427.jpg?auto=format,compress&q=72&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+}
+
+main.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mission-section,
+.culture-section {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.section-title {
+    color: #e79434;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #e79434;
+    margin: 15px auto;
+}
+
+.mission-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.mission-text, 
+.mission-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.mission-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.culture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.culture-card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-top: 4px solid #e79434;
+    transition: transform 0.3s;
+}
+
+.culture-card:hover {
+    transform: translateY(-10px);
+}
+
+.culture-card h3 {
+    color: #e79434;
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+.culture-icon {
+    font-size: 2.5em;
+    color: #e79434;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 80px 20px;
+    }
+    
+    .about-hero h1 {
+        font-size: 2.2em;
+    }
+    
+    .mission-content {
+        flex-direction: column;
+    }
+}

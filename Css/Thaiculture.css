@@ -1,0 +1,33 @@
+.thailand-culture {
+    padding: 160px 10%;
+    padding-bottom: 0px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.thailand-culture h1 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.thailand-culture h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin: 10px auto 0;
+}
+
+.thailand-culture p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+
+}

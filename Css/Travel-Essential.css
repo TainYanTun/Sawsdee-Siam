@@ -1,0 +1,77 @@
+/* Travel Essentials Section */
+.travel-essentials {
+    padding: 40px 10%;
+    background-color: #e79434; /* Background color */
+    text-align: center;
+    overflow: hidden; /* Prevent horizontal overflow */
+    margin-top: 140px;
+}
+
+.essentials-grid {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+    padding-bottom: 0px; /* Add padding for scrollbar */
+    scrollbar-width: thin; /* For better scrollbar appearance */
+    scrollbar-color: #ffffff #e79434; /* Custom scrollbar color */
+    margin: 0 auto; /* Center the grid container */
+    max-width: 1500px; /* Limit max width for larger screens */
+    justify-content: center; /* Center the cards within the grid */
+}
+
+.essentials-grid::-webkit-scrollbar {
+    height: 2px; /* Scrollbar height */
+}
+
+.essentials-grid::-webkit-scrollbar-track {
+    background: #e79434; /* Scrollbar track color */
+}
+
+.essentials-grid::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded scrollbar thumb */
+}
+
+.essentials-card {
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    min-width: 200px; /* Adjusted minimum width for better fit */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.essentials-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+.icon-container {
+    margin-bottom: 15px; /* Space between icon and heading */
+}
+
+.icon-container i {
+    font-size: 2.5rem; /* Icon size */
+    color: #ffffff; /* White icon color */
+}
+
+.essentials-card h3 {
+    font-size: 1.25rem;
+    color: #ffffff; /* White text color */
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .essentials-card {
+        min-width: 150px; /* Further reduce width for very small screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .icon-container i {
+        font-size: 2rem; /* Smaller icons for very small screens */
+    }
+
+    .essentials-card h3 {
+        font-size: 1rem; /* Smaller text for very small screens */
+    }
+}
